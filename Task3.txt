@@ -1,16 +1,16 @@
 # Revision number 1 25Feb2022
 ## Begin Derek Ruggirello here 25Feb2022
 
-Array = ["Animals", "Badger", "Honey Bee", "Honey Badger"]
-iterator = 0
-for x in Array:
+Array = ["Animals", "Badger", "Honey Bee", "Honey Badger"] # Create an object to store the strings
+iterator = 0 # This will help keep indexes of x
+for x in Array: # Iterates through the array and converts each string to lower case
     Array[iterator] = x.lower()
-    iterator += 1
+    iterator += 1 # increments iterator variable
 for x in Array:
-    print(x)
+    print(x) # Loop to output the lower case array strings
 
 iterator = 0
-for x in Array:
+for x in Array: # Same as prior loop except for upper case
     Array[iterator] = x.upper()
     iterator += 1
 for x in Array:
@@ -20,8 +20,8 @@ string1 = " Filet Mignon"
 string2 = "Brisket "
 string3 = " Cheeseburger "
 
-string1 = string1.lstrip()
-string2 = string2.rstrip()
+string1 = string1.lstrip() # Strips whitespace from left side
+string2 = string2.rstrip() # Strips whitespace from right side
 string3 = string3.lstrip()
 string3 = string3.rstrip()
 
