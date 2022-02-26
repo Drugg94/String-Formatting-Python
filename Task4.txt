@@ -1,37 +1,37 @@
 # Revision number 1 25Feb2022
 ## Begin Derek Ruggirello here 25Feb2022
 
-first = "3"
+first = "3" # First variable 
 
-first = int(first)
+first = int(first) # Turns the string into an integer
+
+result = first + 3 # Adds them together
+
+print(result) # output result
+
+first = "3" 
+
+first = float(first) # Convert string to float
 
 result = first + 3
 
-print(result)
-
-first = "3"
-
-first = float(first)
-
-result = first + 3
-
-print(result)
+print(result) # output
 
 first = "Hello"
 
 second = 4
 
-print(first + str(second))
+print(first + str(second)) # Converts second to a string and concantenates them
 
-first = int(input("Please enter two numbers: "))
+first = int(input("Please enter two numbers: ")) # Takes input as a string and converts it to an integer
 
-second = int(input("number 2: "))
+second = int(input("number 2: ")) # Takes input as a string and converts it to an integer
 
-print("The product of", first, "and", second, "is", float((first * second)))
+print("The product of", first, "and", second, "is", float((first * second))) # Outputs the results
 
 first = "How are you"
 
-print("The letter w is in the", first.find('w') + 1, "place of", first)
+print("The letter w is in the", first.find('w') + 1, "place of", first) # Finds the place of the letter w.
 
 
 
