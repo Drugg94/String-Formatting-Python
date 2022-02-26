@@ -1,20 +1,19 @@
 # Revision number 1 25Feb2022
 ## Begin Derek Ruggirello here 25Feb2022
 
-from logging import getLogRecordFactory
-
-
-first = '"Hello there."'
+first = '"Hello there."' # used single quotes so that double quotes appear
 print(first)
 
 second = "Who's there?"
 print(second)
 
-print(""" This
+# Used triple quotes in order to use multi lines
+print(""" This 
 is
 a
 string """)
 
+# Using forward slash in order to negate the enters.
 third = "Hello"\
 " Everyone"
 
